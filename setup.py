@@ -32,6 +32,6 @@ setup(
         "Topic :: Software Development",
     ],
     project_urls={
-        "Source": "",
+        "Source": "https://github.com/Elabsurdo984/pynet",
     }
 )
