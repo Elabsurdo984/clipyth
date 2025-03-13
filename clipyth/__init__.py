@@ -30,7 +30,7 @@ if __name__ == "__main__":
         f.write('# Add your dependencies here\n')
     
     # Create a basic README.md
-    with open(os.path.join(project_dir, "README.md"), "w", enconding="utf-8") as f:
+    with open(os.path.join(project_dir, "README.md"), "w", encoding="utf-8") as f:
         f.write(f'''# {project_name}
 
 A Python console application.
