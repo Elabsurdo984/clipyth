@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="clipyth",
-    version="1.0.0",
+    version="1.0.3",
     description="A simple CLI (Command Line Interface) to create python projects with different templates",
     long_description=open("README.md", encoding='utf-8').read(),
     long_description_content_type='text/markdown',
