@@ -1,6 +1,6 @@
-# ProjCreator
+# PyNesis
 
-ProjCreator es una herramienta de línea de comandos (CLI) que facilita la creación de proyectos Python con diferentes plantillas predefinidas. Simplifica el proceso de iniciar nuevos proyectos con una estructura básica pero funcional.
+PyNesis es una herramienta de línea de comandos (CLI) que facilita la creación de proyectos Python con diferentes plantillas predefinidas. Simplifica el proceso de iniciar nuevos proyectos con una estructura básica pero funcional.
 
 ## Instalación
 
@@ -9,13 +9,13 @@ ProjCreator es una herramienta de línea de comandos (CLI) que facilita la creac
 
 ### Instalación desde PyPI
 ```bash
-pip install projcreator
+pip install PyNesis
 ```
 
 ### Instalación desde el código fuente
 ```bash
 git clone <url-del-repositorio>
-cd projcreator
+cd PyNesis
 pip install -e .
 ```
 
@@ -25,7 +25,7 @@ pip install -e .
 
 ```bash
 # Crear un nuevo proyecto de aplicación de consola
-projcreator new console [nombre-del-proyecto]
+PyNesis new console [nombre-del-proyecto]
 ```
 
 Si no especificas un nombre de proyecto, se utilizará "my-project" por defecto.
@@ -49,7 +49,7 @@ El archivo `main.py` incluye una función `main()` simple que imprime un mensaje
 ### Crear una aplicación de consola
 
 ```bash
-projcreator new console mi-aplicacion
+PyNesis new console mi-aplicacion
 ```
 
 Este comando creará un directorio llamado "mi-aplicacion" en el directorio actual con todos los archivos necesarios para una aplicación de consola básica.
@@ -72,11 +72,11 @@ python main.py
 
 ## Desarrollo
 
-### Estructura del proyecto ProjCreator
+### Estructura del proyecto PyNesis
 
 ```
-ProjCreator/
-├── projcreator/
+PyNesis/
+├── PyNesis/
 │   ├── __init__.py   # Implementación principal del CLI
 │   └── __main__.py   # Punto de entrada para ejecutar como módulo
 ├── setup.py          # Configuración de instalación
@@ -95,7 +95,7 @@ Para añadir nuevas plantillas, debes:
 
 ## Compatibilidad
 
-ProjCreator es compatible con:
+PyNesis es compatible con:
 - Python 3.8
 - Python 3.9
 - Python 3.10
