@@ -44,7 +44,7 @@ A Python console application.
     print(f"✓ Console application '{project_name}' created successfully!")
 
 def main():
-    parser = argparse.ArgumentParser(description="PyNet - Python Project Generator")
+    parser = argparse.ArgumentParser(description="ProjCreator - Python Project Generator")
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
 
     # Create the 'new' command
