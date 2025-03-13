@@ -1,20 +1,20 @@
 from setuptools import setup
 
 setup(
-    name="pynesis",
+    name="clipyth",
     version="1.0.0",
     description="A simple CLI (Command Line Interface) to create python projects with different templates",
     long_description=open("README.md", encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author="Elabsurdo984",
     author_email="matiassfernandez00@gmail.com",
-    url="https://github.com/Elabsurdo984/pynesis.git",
-    packages=["pynesis"],
+    url="https://github.com/Elabsurdo984/clipyth.git",
+    packages=["clipyth"],
     python_requires='>=3.8',
     license="MIT",
     entry_points={
         'console_scripts': [
-            'pynesis=pynesis:main',
+            'clipyth=clipyth:main',
         ],
     },
     classifiers=[
@@ -32,6 +32,6 @@ setup(
         "Topic :: Software Development",
     ],
     project_urls={
-        "Source": "https://github.com/Elabsurdo984/pynesis",
+        "Source": "https://github.com/Elabsurdo984/clipyth",
     }
 )
